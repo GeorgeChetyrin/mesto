@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Яндекс Практикум Четырин Георгий Проект 4">
+    <link rel="stylesheet" href="./pages/index.css">
+    <title>Место</title>
+</head>
+
+<body class="page">
+    <header class="header">
+        <div class="header__logo"></div>
+        <div class="header__line"></div>
+    </header>
+
+    <main class="main-content">
+
+        <section class="profile">
+            <div class="profile__container">
+                <img src="./images/Avatar.png" alt="Фотография мужчины" class="profile__avatar">
+                <div class="profile__info">
+                    <div class="profile__text">
+                        <h1 class="profile__title">Жак-Ив Кусто</h1>
+                        <button class="profile__edit-button profile__open-popup"></button>
+                    </div>
+                    <p class="profile__subtitle">Исследователь океана</p>
+                </div>
+            </div>
+            <button class="profile__add-button"></button>
+        </section>
+
+        <section class="elements">
+            <div class="elements__cards">
+                <img class="elements__image" src="./images/max-sudyin_River.png" alt="Голубое небо и река">
+                <div class="elements__container">
+                    <h2 class="elements__title">Карачаевск</h2>
+                    <button class="elements__icon-like"></button>
+                </div>
+            </div>
+
+            <div class="elements__cards">
+                <img class="elements__image" src="./images/artem-kovalev_Magadan.png" alt="Зеленое поле и девушка">
+                <div class="elements__container">
+                    <h2 class="elements__title">Магадан</h2>
+                    <button class="elements__icon-like"></button>
+                </div>
+            </div>
+
+            <div class="elements__cards">
+                <img class="elements__image" src="./images/vladimir-fedotov_Krasnoyarsk.png" alt="Река в горном лесу">
+                <div class="elements__container">
+                    <h2 class="elements__title">Красноярск</h2>
+                    <button class="elements__icon-like"></button>
+                </div>
+            </div>
+
+            <div class="elements__cards">
+                <img class="elements__image" src="./images/sergey-pesterev_Baikal_Olhon.png" alt="Замерзший Байкал">
+                <div class="elements__container">
+                    <h2 class="elements__title">Байкал</h2>
+                    <button class="elements__icon-like"></button>
+                </div>
+            </div>
+
+            <div class="elements__cards">
+                <img class="elements__image" src="./images/alexandr_Ivanovo.png" alt="Шоссе через лес">
+                <div class="elements__container">
+                    <h2 class="elements__title">Иваново</h2>
+                    <button class="elements__icon-like"></button>
+                </div>
+            </div>
+
+            <div class="elements__cards">
+                <img class="elements__image" src="./images/andrei-alexeev_Sochi_Roza_Hutor.png" alt="Снег в горах">
+                <div class="elements__container">
+                    <h2 class="elements__title">Сочи</h2>
+                    <button class="elements__icon-like"></button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p class="footer__copyright">&copy; 2020 Mesto Russia</p>
+    </footer>
+
+    <section class="popup popup_opened">
+        <form class="popup__form">
+            <img src="./images/Close_Icon_white.svg" alt="" class="popup__close">
+            <div class="popup__content">
+                <h2 class="popup__title">Редактировать профиль</h2>
+                <input placeholder="" class="popup__profile-title"></input>
+                <input placeholder="" class="popup__profile-subtitle"></input>
+                <button class="popup__submit-button">Сохранить</button>
+            </div>
+        </form>
+    </section>
+</body>
+<script type="text/javascript" src="./scripts/index.js"></script>
+
+</html>
