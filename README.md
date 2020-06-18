@@ -20,5 +20,9 @@
 
 **Ссылка на Github**
 
+---------------------
+
+(https://georgechetyrin.github.io/mesto/)
+
 
 Удачи!
