@@ -6,8 +6,6 @@
 @import url(../popup/__profile-subtitle/popup__profile-subtitle.css);
 @import url(../popup/__submit-button/popup__submit-button.css);
 
-@import url(../popup/_opened/popup_opened.css);
-
 .popup {
   position: fixed;
   width: 100%;
@@ -17,5 +15,5 @@
   align-items: center;
   justify-content: center;
   background: rgba(0, 0, 0, 0.5);
-  display: flex;
+  display: none;
 }

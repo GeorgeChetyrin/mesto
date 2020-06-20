@@ -4,12 +4,15 @@
   width: 350px;
   height: 30px;
   margin-top: 30px;
-}
-
-.popup__profile-subtitle::placeholder {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 17px;
   color: #000000;
+}
+
+@media screen and (min-width: 300px) and (max-width: 540px) {
+  .popup__profile-subtitle {
+    width: 180px;
+  }
 }
