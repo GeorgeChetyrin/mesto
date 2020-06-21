@@ -12,7 +12,7 @@ const job = profile.querySelector('.profile__subtitle');
 
 
 function popupToggle() {
-    if (popup.classList.contains('popup_opened')) {
+    if (!popup.classList.contains('popup_opened')) {
         nameInput.value = name.textContent;
         jobInput.value = job.textContent;
     }
@@ -30,3 +30,7 @@ function formSubmitHandler(evt) {
 formElement.addEventListener('submit', formSubmitHandler);
 popupOpenButton.addEventListener('click', popupToggle);
 popupCloseButton.addEventListener('click', popupToggle);
+
+
+
+
